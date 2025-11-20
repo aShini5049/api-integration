@@ -2,14 +2,11 @@ API Integration & Table Display - This project is a simple React application tha
 
 How to run the project:
 
-1.	Clone the repository
-    git clone https://github.com/<your-username>/<your-repo>.git
+1.	Clone the repository - git clone https://github.com/<your-username>/<your-repo>.git
   	
-3.	Install Dependencies
-    npm install
+3.	Install Dependencies - npm install
   	
-5.	Start the development server
-    npm run dev
+5.	Start the development server - npm run dev
   	
 7.	Open your browser and go to http://localhost:3000/
 
