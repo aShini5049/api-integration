@@ -1,16 +1,51 @@
-# React + Vite
+API Integration & Table Display - This project is a simple React application that fetches user data from a public APIand displays it inside a well-styled table.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+How to run the project:
 
-Currently, two official plugins are available:
+1.	Clone the repository
+    git clone https://github.com/<your-username>/<your-repo>.git
+  	
+3.	Install Dependencies
+    npm install
+  	
+5.	Start the development server
+    npm run dev
+  	
+7.	Open your browser and go to http://localhost:3000/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features:
 
-## React Compiler
+1.	API integration
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-	Fetches data from: https://jsonplaceholder.typicode.com/users
+-	Use Axios and useEffect for API calls
+-	Displays the data inside a table
 
-## Expanding the ESLint configuration
+2.	Table Display
+   
+-	Shows these details:
+  •	ID
+  •	Name
+  •	Email
+  •	Phone
+  •	City
+  •	Company Name
+-	Fully responsive (mobile, tablet & desktop)
+-	Clean UI using Tailwind CSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3.	States
+
+-	Loading State: shows “Loading…” while fetching data
+-	Error State: Shows an error message if the API fails
+
+4.	UI & Styling
+
+-	Fully centered layout.
+-	Responsive typography.
+-	Simple and clean design.
+
+Technologies:
+-	React.js (functional components)
+-	Axios for API requests
+-	Tailwind CSS for styling
+
