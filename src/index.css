@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 2px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: Arial, Sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  justify-content: center;
+  background-color: rgb(255, 248, 220);
+}
